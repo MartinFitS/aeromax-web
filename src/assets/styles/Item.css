@@ -1,0 +1,48 @@
+.info{
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 45%;
+    height: 800px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.info h1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;  
+    font-weight: 300;
+}
+
+.map{
+    width: 100%;
+    height: auto;
+}
+
+.boton{
+    margin-top: 140px;
+    width: 100%;
+    height: auto;
+}
+
+.info button{
+    border: 1px solid black;
+    background-color: transparent;
+    width: 40%;
+    height: 60px;
+    margin-left: 30%;
+    border-radius: 30px;
+    font-weight: 900;
+}
+
+.info button:hover{
+    background-color:rgb(63, 111, 184);
+    border: 1px solid rgb(63, 111, 184);
+    color: white;
+    transition: 550ms;
+}
+

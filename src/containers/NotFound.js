@@ -8,7 +8,7 @@ const NotFound = () => (
     <React.Fragment>
         <div className="container-404">
             <div className="container-img_404">
-                <Link to="/">
+                <Link to="/aeromax-web">
                     <img src={Logo}></img>
                 </Link> 
                
@@ -17,7 +17,7 @@ const NotFound = () => (
             <div className="container-info_404">
                     <h1>Ups ha ocurrido un error :(</h1>
                     <p>Error 404 no pudimos encontrar lo que buscaba, para regresar de click en el botón </p>
-                    <Link to="/">
+                    <Link to="/aeromax-web">
                         <button>Regresar al home</button>
                     </Link>
                  

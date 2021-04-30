@@ -20,7 +20,7 @@ const Footer = () => (
         <div className="item-footer">
             <div className="espacio"></div>
 
-            <Link to="/">
+            <Link to="/aeromax-web">
                 <div className="imgFooter"></div >
             </Link>
                

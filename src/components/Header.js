@@ -5,7 +5,7 @@ import Logo from "../assets/static/Logo.png";
 
 const Header = () => (
     <header className="header">
-        <Link to="/">
+        <Link to="/aeromax-web">
           <img className ="logo" src={Logo}/>
         </Link>
 

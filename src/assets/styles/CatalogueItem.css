@@ -78,3 +78,107 @@
     font-size: 15px;
     padding: 3px;
 }
+
+@media(max-width:1024px){
+    .card-container {
+        margin-top: 30px;
+        width: 40%;
+        margin: 50px;     
+    }
+}
+
+@media(max-width:768px){
+    .card-container {
+        margin-top: 30px;
+        width: 40%;
+        margin: 25px;
+        margin-left: 41px;
+    }
+    .body-card_specs h2 {
+        font-size: 13px;
+        padding: 1px;
+    }
+    .container-button button {
+        font-weight: 700;
+        font-size: 15px;
+        border-radius: 30px;
+        border: 1px solid black;
+        background: transparent;
+        width: 90%;
+        height: 50px;
+        outline: none;
+        margin-top: 34px;
+    }
+
+    .card-img_container img {
+        width: 200px;
+        height: 300px;
+        margin-left: 70px;
+    }
+}
+
+@media(max-width:600px){
+    .card-container {
+        margin-top: 30px;
+        width: 60%;
+        margin: 25px;
+        margin-left: 113px;
+    }
+}
+
+@media(max-width:414px){
+    .card-container {
+        margin-top: 30px;
+        width: 65%;
+        margin: 23px;
+        margin-left: 98px;
+    }
+    .card-img_container img {
+        width: 237px;
+        height: 300px;
+        margin-left: 26px;
+    }
+    .body-card_specs {
+        width: 50%;
+        height: auto;
+        padding: 15px;
+    }
+    .body-card_specs h2 {
+        font-size: 12px;
+        padding: 1px;
+    }
+    .container-button button {
+        font-weight: 700;
+        font-size: 13px;
+        border-radius: 30px;
+        border: 1px solid black;
+        background: transparent;
+        width: 90%;
+        height: 50px;
+        outline: none;
+        margin-top: 18px;
+    }
+}
+
+@media(max-width:375px){
+    .card-container {
+        margin-top: 30px;
+        width: 86%;
+        margin: 23px;
+        margin-left: 50px;
+    }
+    .card-img_container img {
+        width: 237px;
+        height: 300px;
+        margin-left: 33px;
+    }
+}
+
+@media(max-width:320px){
+    .card-container {
+        margin-top: 30px;
+        width: 90%;
+        margin: 23px;
+        margin-left: 48px;
+    }
+}

@@ -32,3 +32,28 @@
 ::-webkit-scrollbar {
     display: none;  /* Ocultar scroll */
 }
+
+@media(max-width:600px){
+    .containerItem {
+        display: inline-block;
+    }
+}
+
+@media (max-width:414px) {
+    .title {
+        width: 111%;
+    }
+    .containerItem {
+        width: 111%;
+    }
+}
+
+@media(max-width:320px){
+    .title {
+        width: 121%;
+    }
+    .info {
+        width: 86%;
+        margin-left: 45px;
+    }
+}

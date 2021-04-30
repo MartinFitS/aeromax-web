@@ -31,4 +31,14 @@
     text-decoration: underline;
 }
 
+@media(max-width:414px){
+    .header {
+        width: 111%;
+    }
+}
 
+@media(max-width:320px){
+    .header {
+        width: 121%;
+    }
+}

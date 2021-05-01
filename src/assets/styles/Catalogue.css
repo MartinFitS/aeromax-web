@@ -18,3 +18,42 @@ h1{
     border-bottom: 1px solid black;
     margin-bottom: 40px;
 }
+
+
+@media(max-width:414px){
+    .resultOfH1{    
+        width: 111%;
+    }
+    .notResultForH1{
+        width: 111%;
+        font-size: 25px;
+    }
+}
+
+@media (max-width:320px) {
+    .notResultForH1 {
+        width: 121%;
+        font-size: 20px;
+    }
+    .youCanTry {
+        width: 121%;
+        font-size: 17px;
+    }
+    .resultOfH1 {
+        width: 121%;
+    }
+    
+}
+
+@media(max-width:280px){
+    .notResultForH1 {
+        width: 131%;
+        font-size: 20px;
+    }
+
+    .youCanTry {
+        width: 131%;
+        font-size: 17px;
+    }
+
+}

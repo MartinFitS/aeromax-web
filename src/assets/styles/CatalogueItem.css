@@ -179,6 +179,14 @@
         margin-top: 30px;
         width: 90%;
         margin: 23px;
-        margin-left: 48px;
+        margin-left: 52px;
+    }
+}
+
+@media(max-width:280px){
+    .card-img_container img {
+        width: 237px;
+        height: 300px;
+        margin-left: 9px;
     }
 }

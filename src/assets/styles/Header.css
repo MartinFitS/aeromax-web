@@ -42,3 +42,16 @@
         width: 121%;
     }
 }
+
+@media(max-width:280px){
+    .header {
+        width: 131%;
+    }
+    .menu ul li {
+        color: white;
+        padding: 10px;
+        list-style: none;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}

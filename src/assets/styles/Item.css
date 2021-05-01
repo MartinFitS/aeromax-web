@@ -76,7 +76,7 @@ iframe {
 @media(max-width:540px){
     .info {
         width: 75%;
-        margin-left: 66px;
+        margin-left: 59px;
     }
 }
 
@@ -95,7 +95,12 @@ iframe {
 
 @media(max-width:375px){
     .info {
-        margin-left: 54px;
+        margin-left: 52px;
     }
 }
 
+@media(max-width:320px){
+    .info {
+        margin-left: 27px;
+    }
+}

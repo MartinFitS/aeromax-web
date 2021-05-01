@@ -145,3 +145,21 @@
         height: 505px;
     }
 }
+
+@media (max-width:280px) {
+    .container-banner {
+        width: 131%;
+        height: 505px;
+    }
+    .banner-search__title h1 {
+        padding: 0;
+        font-size: 50px;
+    }
+    .container-nav input {
+        width: 137%;
+        margin-left: -167px;
+    }
+    .container-nav button {
+        width: 48%;
+    }
+}

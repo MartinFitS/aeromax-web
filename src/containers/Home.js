@@ -40,7 +40,7 @@ if(filterCategory == 0){
               {
                 productSearch.productSearch != undefined && key === true
                 ?
-                <h1>Resultados para: {nameCap}</h1>
+                <h1 className="resultOfH1">Resultados para: {nameCap}</h1>
                 :
                 null
               }
@@ -61,7 +61,7 @@ if(filterCategory == 0){
               {
                   productSearch.productSearch !== undefined && key === false
                 ?
-                <h1>
+                <h1 className="notResultForH1">
                   No se encuentran resultados para: {nameCap} :(       
                 </h1>
                 :

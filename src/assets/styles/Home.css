@@ -7,6 +7,7 @@
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
 }
+
 .title{
     margin-top: 50px;
     text-align: center;
@@ -46,7 +47,11 @@
     .containerItem {
         width: 111%;
     }
+    .youCanTry {
+        width: 111%;
+    }
 }
+
 
 @media(max-width:320px){
     .title {
@@ -55,5 +60,14 @@
     .info {
         width: 86%;
         margin-left: 45px;
+    }
+}
+
+@media (max-width: 280px){
+    .containerItem {
+        width: 131%;
+    }
+    .info {
+        margin-left: 25px;
     }
 }

@@ -74,3 +74,239 @@
     border:1px solid  white;
     transition: 300ms;
 }
+
+@media(max-width:1356px){
+    .card-presentational_container {
+        margin-top: 72px;
+        margin-bottom: 40px;
+        margin-left: 34%;
+        width: 80%;
+        height: 500px;
+        border-radius: 30px;
+        display: inline-block;
+    }
+
+    .card-presentational_container__left {
+        width: 40%;
+        height: auto;
+    }
+    .card-presentational_container__left img {
+        width: 100%;
+        height: 450px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    .card-presentational_container__right {
+        width: 40%;
+        height: auto;
+        background-color: rgb(63, 111, 184);
+        border-left: 1px solid white;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .card-presentational_container__right button {
+        outline: none;
+        margin-top: 30px;
+        margin-left: 25%;
+        width: 50%;
+        height: 60px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        border-radius: 30px;
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width:1024px) {
+   
+    .card-presentational_container {
+        margin-top: 72px;
+        margin-bottom: 40px;
+        margin-left: 30%;
+        width: 70%;
+        height: 500px;
+        border-radius: 30px;
+        display: inline-block;
+    }
+    .card-presentational_container__left {
+        width: 60%;
+        height: auto;
+    }
+    .card-presentational_container__right {
+        width: 60%;
+        height: auto;
+        background-color: rgb(63, 111, 184);
+        border-left: 1px solid white;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+}
+
+@media(max-width:768px){
+    .card-presentational_container__left {
+        width: 68%;
+        height: auto;
+    }
+    .card-presentational_container__right {
+        width: 68%;
+        height: auto;
+        background-color: rgb(63, 111, 184);
+        border-left: 1px solid white;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .card-presentational_container {
+        margin-top: 72px;
+        margin-bottom: 40px;
+        margin-left: 25%;
+        width: 73%;
+        height: 500px;
+        border-radius: 30px;
+        display: inline-block;
+    }
+}
+
+@media(max-width:600px){
+    .card-presentational_container__left {
+        width: 87%;
+        height: auto;
+    }
+    .card-presentational_container__right {
+        width: 87%;
+        height: auto;
+        background-color: rgb(63, 111, 184);
+        border-left: 1px solid white;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .card-presentational_container {
+        margin-top: 72px;
+        margin-bottom: 40px;
+        margin-left: 19%;
+        width: 73%;
+        height: 500px;
+        border-radius: 30px;
+        display: inline-block;
+    }
+}
+
+@media(max-width:540px){
+    .card-presentational_container {
+        margin-top: 72px;
+        margin-bottom: 40px;
+        margin-left: 21%;
+        width: 73%;
+        height: 500px;
+        border-radius: 30px;
+        display: inline-block;
+    }
+    .card-presentational_container__left {
+        width: 82%;
+        height: auto;
+    }
+    .card-presentational_container__right {
+        width: 82%;
+        height: auto;
+        background-color: rgb(63, 111, 184);
+        border-left: 1px solid white;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+}
+
+@media(max-width:414px){
+    .card-presentational_container__left {
+        width: 100%;
+        height: auto;
+    }
+    .card-presentational_container__right {
+        width: 100%;
+        height: auto;
+        background-color: rgb(63, 111, 184);
+        border-left: 1px solid white;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .card-presentational_container {
+        margin-top: 72px;
+        margin-bottom: 40px;
+        margin-left: 19%;
+        width: 73%;
+        height: 500px;
+        border-radius: 30px;
+        display: inline-block;
+    }
+}
+
+@media(max-width:320px){
+    .card-presentational_container {
+        margin-top: 72px;
+        margin-bottom: 40px;
+        margin-left: 25%;
+        width: 73%;
+        height: 500px;
+        border-radius: 30px;
+        display: inline-block;
+    }
+    .card-presentational_container__left img {
+        width: 100%;
+        height: 329px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    .card-presentational_container__right h1 {
+        font-size: 26px;
+        font-weight: 300;
+        padding-top: 5px;
+        padding-bottom: 1px;
+        border-bottom: 1px solid white;
+        color: white;
+    }
+    .card-presentational_container__right h2 {
+        font-size: 19px;
+        font-weight: 500;
+        padding: 30px;
+        color: white;
+    }
+    .card-presentational_container__right button {
+        outline: none;
+        margin-top: 30px;
+        margin-left: 25%;
+        width: 50%;
+        height: 45px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        border-radius: 30px;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+}
+
+@media(max-width:280px){
+    .card-presentational_container {
+        margin-top: 72px;
+        margin-bottom: 40px;
+        margin-left: 20%;
+        width: 90%;
+        height: 500px;
+        border-radius: 30px;
+        display: inline-block;
+    }
+}
